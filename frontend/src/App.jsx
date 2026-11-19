@@ -1,22 +1,10 @@
-
-function App() {
-  return (
-    <div>
-      <h1 id="project-name">StudySpot</h1>
-      <p>Welcome to StudySpot!</p>
-      <p>Your space to study, organize, and learn.</p>
-    </div>
-  );
-}
-
-export default App;
 import "./App.css";
 
 function App() {
   return (
     <div className="app">
       <nav className="navbar">
-        <h2>StudySpot</h2>
+        <h2 id="project-name">StudySpot</h2>
 
         <div>
           <a href="#home">Home</a>

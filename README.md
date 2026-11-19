@@ -13,7 +13,7 @@
 | Aly Farouk | 16002325 | T8 | alyzayed2006-web |
 | Youssef Mossad | 16006264 | T7 | youssefmmossad-cmd |
 | Judy Ehab | 16001422| T8 | judyyehabb |
-| Ahmed Mohammed | 16001346| T7 | | meedo-giu|
+| Ahmed Mohammed | 16001346 | T7 | meedo-giu |
 
 ## 2. The idea
 
@@ -183,3 +183,105 @@ npm run dev
 ```
 
 The app runs on [the address `npm run dev` prints, e.g. http://localhost:5173].
+
+## 7. Project documentation
+
+### 7.1 Project Overview
+
+StudySpot is a web application designed to help students organize their study activities and improve their learning experience.
+
+The platform aims to provide students with a convenient space to manage their academic activities and make studying more organized.
+
+### 7.2 Project Objectives
+
+- Help students organize their study activities.
+- Provide a simple and user-friendly platform.
+- Support students in managing their learning experience.
+- Create a central place for study-related activities.
+
+### 7.3 Technologies Used
+
+**Frontend**
+
+- React
+- Vite
+- JavaScript
+- CSS
+
+**Backend**
+
+- Node.js
+- Express.js
+
+**Database**
+
+- MongoDB
+- Mongoose
+
+### 7.4 Project Structure
+
+- `backend/`: Contains the server-side code and database-related files.
+- `frontend/`: Contains the React application and user interface.
+- `README.md`: Contains the project documentation.
+
+### 7.5 Installation and Setup
+
+**Requirements**
+
+- Node.js
+- npm
+- Git
+- MongoDB connection for database functionality
+
+**Backend Setup**
+
+1. Open the `backend` folder in the terminal.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Create a `.env` file using `.env.example` as a template.
+4. Configure the required environment variables.
+5. Start the backend:
+   ```bash
+   npm start
+   ```
+
+The backend runs on port 3000 by default.
+
+**Frontend Setup**
+
+1. Open the `frontend` folder in a separate terminal.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open the local URL displayed in the terminal.
+
+### 7.6 Backend Health Check
+
+The backend provides the following endpoint:
+
+```
+GET /api/health
+```
+
+A successful response is:
+
+```json
+{
+  "status": "ok"
+}
+```
+
+### 7.7 Team Contributions
+
+Each team member contributes to a different part of the StudySpot project, including backend development, database design, frontend development, and documentation.
+
+### 7.8 Project Status
+
+The project is under development. Features will be added and improved throughout the project milestones.
