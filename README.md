@@ -13,7 +13,7 @@
 | Aly Farouk | 16002325 | T8 | alyzayed2006-web |
 | Youssef Mossad | 16006264 | T7 | youssefmmossad-cmd |
 | Judy Ehab | 16001422| T8 | judyyehabb |
-| Ahmed Mohammed | 16001346| T7 | | meedo-giu |
+| Ahmed Mohammed | 16001346| T7 | | meedo-giu|
 
 ## 2. The idea
 
